@@ -1833,4 +1833,4 @@ body.dark-mode {
     background:
         rgba(20, 184, 166, 0.10);
 
-    transition: .4s e
+    transition: .4s ease;
