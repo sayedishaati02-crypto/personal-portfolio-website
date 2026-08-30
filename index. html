@@ -1,0 +1,865 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+
+    <meta name="viewport"
+          content="width=device-width, initial-scale=1.0">
+
+    <meta name="description"
+          content="SAYED KABIRAJ - Student and Web Developer Portfolio">
+
+    <title>SAYED KABIRAJ | Portfolio</title>
+
+    <!-- Google Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+          rel="stylesheet">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+<!-- ================= HEADER ================= -->
+
+<header class="header">
+
+    <a href="#home" class="logo">
+        SAYED<span>.</span>
+    </a>
+
+    <nav class="navbar" id="navbar">
+
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#skills" class="nav-link">Skills</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#projects" class="nav-link">Projects</a>
+        <a href="#education" class="nav-link">Education</a>
+        <a href="#experience" class="nav-link">Experience</a>
+        <a href="#contact" class="nav-link">Contact</a>
+
+    </nav>
+
+    <div class="header-actions">
+
+        <button id="theme-toggle" class="icon-btn">
+            🌙
+        </button>
+
+        <button id="menu-toggle" class="menu-btn">
+            ☰
+        </button>
+
+    </div>
+
+</header>
+
+
+<!-- ================= HOME ================= -->
+
+<section class="home section" id="home">
+
+    <div class="home-content reveal">
+
+        <p class="welcome">
+            Hello, I'm
+        </p>
+
+        <h1>
+            SAYED <span>KABIRAJ</span>
+        </h1>
+
+        <h2>
+            Student & <span>Web Developer</span>
+        </h2>
+
+        <p class="hero-text">
+            I create modern, responsive and user-friendly websites
+            with clean design and simple technology.
+        </p>
+
+        <div class="hero-buttons">
+
+            <a href="#projects" class="btn primary-btn">
+                View My Work
+            </a>
+
+            <a href="cv.pdf" download class="btn outline-btn">
+                Download CV
+            </a>
+
+        </div>
+
+        <div class="social-links">
+
+            <a href="#" aria-label="Instagram">
+                Instagram
+            </a>
+
+            <a href="#" aria-label="GitHub">
+                GitHub
+            </a>
+
+            <a href="mailto:your@email.com">
+                Email
+            </a>
+
+        </div>
+
+    </div>
+
+
+    <div class="home-image reveal">
+
+        <div class="image-box">
+
+            <div class="image-circle"></div>
+
+            <img src="Messenger_creation_A07A765A-6556-4348-A3C0-0AC28646A520.png"
+                 alt="SAYED KABIRAJ">
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= ABOUT ================= -->
+
+<section class="about section" id="about">
+
+    <div class="section-title reveal">
+
+        <p>Get To Know Me</p>
+
+        <h2>
+            About <span>Me</span>
+        </h2>
+
+    </div>
+
+    <div class="about-container">
+
+        <div class="about-image reveal">
+
+            <div class="about-card">
+                <span>01</span>
+                <h3>Creative</h3>
+                <p>
+                    Modern & clean web design
+                </p>
+            </div>
+
+        </div>
+
+
+        <div class="about-content reveal">
+
+            <h3>
+                I'm a Student & Web Developer
+            </h3>
+
+            <p>
+                I am SAYED KABIRAJ, a passionate student and aspiring
+                web developer who enjoys learning modern web technologies.
+                I love creating clean, responsive and user-friendly
+                websites that work smoothly across mobile and desktop devices.
+            </p>
+
+            <p>
+                Along with web development, I am interested in Arabic
+                language, technology and creative digital projects.
+                My goal is to continuously improve my skills and build
+                useful digital experiences.
+            </p>
+
+            <div class="about-info">
+
+                <div>
+                    <strong>Name:</strong>
+                    <span>SAYED KABIRAJ</span>
+                </div>
+
+                <div>
+                    <strong>Profession:</strong>
+                    <span>Student & Web Developer</span>
+                </div>
+
+                <div>
+                    <strong>Focus:</strong>
+                    <span>Web Development</span>
+                </div>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SKILLS ================= -->
+
+<section class="skills section" id="skills">
+
+    <div class="section-title reveal">
+
+        <p>My Abilities</p>
+
+        <h2>
+            My <span>Skills</span>
+        </h2>
+
+    </div>
+
+
+    <div class="skills-container">
+
+        <div class="skills-content reveal">
+
+            <h3>
+                Technologies & Skills
+            </h3>
+
+            <p>
+                I am continuously learning and improving my technical
+                and language skills.
+            </p>
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>HTML</span>
+                    <span>90%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:90%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>CSS</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:85%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>JavaScript</span>
+                    <span>75%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:75%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>MS Word</span>
+                    <span>85%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:85%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>MS Excel</span>
+                    <span>80%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:80%"></span>
+                </div>
+
+            </div>
+
+
+            <div class="skill">
+
+                <div class="skill-info">
+                    <span>Arabic Language</span>
+                    <span>70%</span>
+                </div>
+
+                <div class="skill-bar">
+                    <span style="width:70%"></span>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <div class="skill-cards reveal">
+
+            <div class="skill-card">
+                <span>01</span>
+                <h3>HTML</h3>
+                <p>Semantic website structure</p>
+            </div>
+
+            <div class="skill-card">
+                <span>02</span>
+                <h3>CSS</h3>
+                <p>Modern responsive design</p>
+            </div>
+
+            <div class="skill-card">
+                <span>03</span>
+                <h3>JavaScript</h3>
+                <p>Interactive web experiences</p>
+            </div>
+
+            <div class="skill-card">
+                <span>04</span>
+                <h3>Office</h3>
+                <p>Word & Excel productivity</p>
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= SERVICES ================= -->
+
+<section class="services section" id="services">
+
+    <div class="section-title reveal">
+
+        <p>What I Can Do</p>
+
+        <h2>
+            My <span>Services</span>
+        </h2>
+
+    </div>
+
+
+    <div class="service-container">
+
+        <div class="service-card reveal">
+
+            <div class="service-number">
+                01
+            </div>
+
+            <h3>
+                Web Design
+            </h3>
+
+            <p>
+                Clean and modern website designs
+                for personal and professional needs.
+            </p>
+
+        </div>
+
+
+        <div class="service-card reveal">
+
+            <div class="service-number">
+                02
+            </div>
+
+            <h3>
+                Responsive Website
+            </h3>
+
+            <p>
+                Websites optimized for mobile,
+                tablet and desktop screens.
+            </p>
+
+        </div>
+
+
+        <div class="service-card reveal">
+
+            <div class="service-number">
+                03
+            </div>
+
+            <h3>
+                Frontend Development
+            </h3>
+
+            <p>
+                Interactive frontend interfaces
+                using HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= PROJECTS ================= -->
+
+<section class="projects section" id="projects">
+
+    <div class="section-title reveal">
+
+        <p>My Recent Work</p>
+
+        <h2>
+            Featured <span>Projects</span>
+        </h2>
+
+    </div>
+
+
+    <div class="project-container">
+
+        <div class="project-card reveal">
+
+            <div class="project-image">
+                <span>01</span>
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-type">
+                    Web Project
+                </p>
+
+                <h3>
+                    Islamic Portal
+                </h3>
+
+                <p>
+                    An Islamic web portal designed to provide
+                    useful Islamic content in a simple interface.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+
+        <div class="project-card reveal">
+
+            <div class="project-image">
+                <span>02</span>
+            </div>
+
+            <div class="project-content">
+
+                <p class="project-type">
+                    Web Project
+                </p>
+
+                <h3>
+                    Jamia Computer Centre
+                </h3>
+
+                <p>
+                    A professional website concept for a computer
+                    education and training centre.
+                </p>
+
+                <div class="project-tags">
+
+                    <span>HTML</span>
+                    <span>CSS</span>
+                    <span>JavaScript</span>
+
+                </div>
+
+                <a href="#" class="project-link">
+                    View Project →
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EDUCATION ================= -->
+
+<section class="education section" id="education">
+
+    <div class="section-title reveal">
+
+        <p>My Learning Journey</p>
+
+        <h2>
+            <span>Education</span>
+        </h2>
+
+    </div>
+
+
+    <div class="timeline">
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    Learning
+                </span>
+
+                <h3>
+                    Islamic & Arabic Studies
+                </h3>
+
+                <p>
+                    Continuing studies in Islamic education
+                    and Arabic language.
+                </p>
+
+            </div>
+
+        </div>
+
+
+        <div class="timeline-item reveal">
+
+            <div class="timeline-dot"></div>
+
+            <div class="timeline-content">
+
+                <span class="timeline-date">
+                    Learning
+                </span>
+
+                <h3>
+                    Computer & Web Development
+                </h3>
+
+                <p>
+                    Learning HTML, CSS, JavaScript,
+                    MS Word and MS Excel.
+                </p>
+
+            </div>
+
+        </div>
+
+    </div>
+
+</section>
+
+
+<!-- ================= EXPERIENCE ================= -->
+
+<section class="experience section" id="experience">
+
+    <div class="section-title reveal">
+
+        <p>My Journey</p>
+
+        <h2>
+            <span>Experience</span>
+        </h2>
+
+    </div>
+
+    <div class="experience-container">
+
+        <!-- Box 1 -->
+        <div class="experience-card reveal">
+
+            <div class="experience-icon">
+                &lt;/&gt;
+            </div>
+
+            <div class="experience-number">
+                01
+            </div>
+
+            <h3>
+                Web Development
+            </h3>
+
+            <div class="experience-years">
+                2 Years Experience
+            </div>
+
+            <p>
+                Practical experience in creating responsive
+                and modern websites using HTML, CSS and JavaScript.
+            </p>
+
+        </div>
+
+
+        <!-- Box 2 -->
+        <div class="experience-card reveal">
+
+            <div class="experience-icon">
+                MS
+            </div>
+
+            <div class="experience-number">
+                02
+            </div>
+
+            <h3>
+                Computer Skills
+            </h3>
+
+            <div class="experience-years">
+                3 Years Experience
+            </div>
+
+            <p>
+                Experience with MS Word, MS Excel and other
+                essential computer and productivity tools.
+            </p>
+
+        </div>
+
+
+        <!-- Box 3 -->
+        <div class="experience-card reveal">
+
+            <div class="experience-icon">
+                ع
+            </div>
+
+            <div class="experience-number">
+                03
+            </div>
+
+            <h3>
+                Arabic Language
+            </h3>
+
+            <div class="experience-years">
+                5 Years Experience
+            </div>
+
+            <p>
+                Continuing to develop Arabic language skills
+                through regular study and practical learning.
+            </p>
+
+        </div>
+
+    </div>
+
+
+    <!-- Let's Talk Button -->
+
+    <div class="experience-talk reveal">
+
+        <a
+            href="mailto:your@email.com?subject=Let's%20Talk%20with%20SAYED%20KABIRAJ"
+            class="btn talk-btn"
+        >
+            Let's Talk
+            <span>→</span>
+        </a>
+
+    </div>
+
+</section>
+
+
+<!-- ================= CONTACT ================= -->
+
+<section class="contact section" id="contact">
+
+    <div class="section-title reveal">
+
+        <p>Let's Connect</p>
+
+        <h2>
+            Contact <span>Me</span>
+        </h2>
+
+    </div>
+
+
+    <div class="contact-container">
+
+        <div class="contact-info reveal">
+
+            <h3>
+                Let's work together.
+            </h3>
+
+            <p>
+                Have a project or idea? Feel free to contact me.
+                I would be happy to connect with you.
+            </p>
+
+
+            <div class="contact-item">
+
+                <span>✉</span>
+
+                <div>
+                    <small>Email</small>
+                    <p>sayedishaati02@gmail.com</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <span>◎</span>
+
+                <div>
+                    <small>Instagram</small>
+                    <p>@md_sayed_02</p>
+                </div>
+
+            </div>
+
+
+            <div class="contact-item">
+
+                <span>◉</span>
+
+                <div>
+                    <small>GitHub</small>
+                    <p>
+@sayedishaati02-crypto's activity is private
+                    </p>
+                </div>
+
+            </div>
+
+        </div>
+
+
+        <form class="contact-form reveal" id="contact-form">
+
+            <div class="input-group">
+
+                <input type="text"
+                       id="name"
+                       placeholder="Your Name"
+                       required>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <input type="email"
+                       id="email"
+                       placeholder="Your Email"
+                       required>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <input type="text"
+                       id="subject"
+                       placeholder="Subject"
+                       required>
+
+            </div>
+
+
+            <div class="input-group">
+
+                <textarea id="message"
+                          rows="6"
+                          placeholder="Your Message"
+                          required></textarea>
+
+            </div>
+
+
+            <button type="submit" class="btn primary-btn">
+                Send Message →
+            </button>
+
+        </form>
+
+    </div>
+
+</section>
+
+
+<!-- ================= FOOTER ================= -->
+
+<footer class="footer">
+
+    <div class="footer-logo">
+        SAYED<span>.</span>
+    </div>
+
+    <p>
+        Designed & Built by SAYED KABIRAJ
+    </p>
+
+    <p class="copyright">
+        © <span id="year"></span> SAYED KABIRAJ. All Rights Reserved.
+    </p>
+
+</footer>
+
+
+<!-- Back To Top -->
+
+<button id="back-to-top" class="back-top">
+    ↑
+</button>
+
+
+<!-- JavaScript -->
+
+<script src="script.js"></script>
+
+</body>
+</html>
